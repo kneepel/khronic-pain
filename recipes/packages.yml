@@ -8,6 +8,8 @@ install:
     - wireguard-tools
     - btop
     - nvtop
+    - https://github.com/ilya-zlobintsev/LACT/releases/download/v0.7.4/lact-0.7.4-0.x86_64.fedora-42.rpm
+    - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
 group-install:
   with-optional: true
   packages:

@@ -1,0 +1,19 @@
+type: dnf
+repos:
+  nonfree: rpmfusion
+install:
+  packages:
+    - distrobox
+    - kvantum
+    - wireguard-tools
+    - btop
+    - nvtop
+group-install:
+  with-optional: true
+  packages:
+    - virtualization
+remove:
+  packages:
+    - firefox
+    - firefox-langpacks
+    - toolbox

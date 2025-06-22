@@ -14,6 +14,7 @@ utility:
     flatpak install com.github.wwmm.easyeffects -y
     flatpak install com.bitwarden.desktop -y
     flatpak install it.mijorus.gearlever -y
+    flatpak install io.github.ilya_zlobintsev.LACT -y
 
 # Web
 web:

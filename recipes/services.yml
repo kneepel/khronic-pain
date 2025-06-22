@@ -4,4 +4,3 @@ system:
     - khronicpain-setup.service
     - libvirt-workaround.service
     - swtpm-workaround.service
-    - lactd.service

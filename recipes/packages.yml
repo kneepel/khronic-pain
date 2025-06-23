@@ -1,6 +1,8 @@
 type: dnf
 repos:
   nonfree: rpmfusion
+  files:
+    - https://download.opensuse.org/repositories/home:paul4us/Fedora_42/home:paul4us.repo
 install:
   packages:
     - distrobox
@@ -8,6 +10,7 @@ install:
     - wireguard-tools
     - btop
     - nvtop
+    - klassy
     - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
 group-install:
   with-optional: true

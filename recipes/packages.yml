@@ -11,8 +11,6 @@ install:
     - btop
     - nvtop
     - klassy
-    - python3-gobject
-    - python3-dbus
     - https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.5.1/opentabletdriver-0.6.5.1-1.x86_64.rpm
 group-install:
   with-optional: true
